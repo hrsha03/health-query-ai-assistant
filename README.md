@@ -3,7 +3,7 @@
 A privacy-friendly, AI-powered virtual healthcare assistant that helps users understand their symptoms and guides them on whether to seek medical attention.
 ## 🚀 Live Deployment
 
-You can access the deployed application here: [**Health Assist Bot**](https://hrsha03-health-query-ai-assistant-streamlit-app-islgec.streamlit.app/)
+You can access the deployed application here: [**HealthQuery Chat**](https://hrsha03-health-query-ai-assistant-streamlit-app-islgec.streamlit.app/)
 
 This assistant works using:
 - Amazon Titan Embeddings (for vector search)
