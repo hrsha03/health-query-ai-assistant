@@ -1,3 +1,4 @@
 # Ignore temp data and large files
 temp-files/
 venv/
+.streamlit/

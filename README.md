@@ -1,8 +1,11 @@
 # 🩺 HealthQuery AI Assistant — Local RAG + LLM Symptom Guide
 
 A privacy-friendly, AI-powered virtual healthcare assistant that helps users understand their symptoms and guides them on whether to seek medical attention.
+## 🚀 Live Deployment
 
-This assistant runs **locally** using:
+You can access the deployed application here: [**Health Assist Bot**](https://hrsha03-health-query-ai-assistant-streamlit-app-islgec.streamlit.app/)
+
+This assistant works using:
 - Amazon Titan Embeddings (for vector search)
 - Meta Llama 3.3 70B Instruct via Amazon Bedrock (for response generation)
 - FAISS for fast document search
