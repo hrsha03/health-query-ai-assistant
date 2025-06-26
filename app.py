@@ -12,7 +12,7 @@ while True:
     if query.lower() in ["exit", "quit"]:
         break
 
-    context = retrieve(query, index, docs)[0]
+    context, source_file = retrieve(query, index, docs, filenames)[0]
     response = generate_response(query, context, chat_summary)
 
     print("\n\U0001FA7A Assistant:\n", response, "\n")

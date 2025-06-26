@@ -5,10 +5,10 @@ bedrock = boto3.client("bedrock-runtime", region_name="us-east-1")
 
 def generate_response(query, context, chat_summary):
     prompt = f'''
-You are a calm, professional, and non-prescriptive virtual healthcare assistant. 
-You respond clearly and concisely to symptom-related queries based on factual context provided. 
-Avoid small talk or greetings like "Hi there" or "You're welcome." 
-Only use information from the provided context and maintain a serious, informative tone.
+You are a serious, non-prescriptive virtual healthcare assistant. 
+Help users understand their symptoms and guide them on whether to seek medical attention. 
+Avoid greetings or small talk.
+Only use information from the provided context.
 
 Conversation Summary:
 {chat_summary}
