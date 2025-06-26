@@ -43,6 +43,7 @@ if query:
     result = retrieve(query, index, docs, filenames)[0]
     context, source_file = result
     st.session_state["last_source"] = source_file
+    st.session_state["last_context"] = context
     response = generate_response(query, context, st.session_state.chat_summary)
 
     # Update session state
@@ -60,6 +61,8 @@ for role, message in st.session_state.chat_history:
 # Show document source (simple heuristic: just show index 0 file)
 with st.expander("📎 Source Info", expanded=False):
     if "last_source" in st.session_state:
-        st.caption(f"Matched source document: data/{st.session_state.last_source}")
+        st.markdown(f"**Matched file:** `{st.session_state.last_source}`")
+    if "last_context" in st.session_state:
+        st.code(st.session_state.last_context.strip(), language="markdown")
     else:
         st.caption("No document matched yet.")
