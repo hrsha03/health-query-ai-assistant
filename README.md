@@ -29,26 +29,30 @@ To ensure stable and informative results:
 ---
 
 ## 🛠 How to Run Locally
-```bash
+
  ### Clone the repository:
+```bash
 git clone https://github.com/your-username/health-assist-bot.git
 cd health-assist-bot
-
+```
  ### Set up a virtual environment
--- for first run
+```bash
+# for first run
 python3 -m venv venv
--- for later runs
+# for subsequent runs
 source venv/bin/activate 
-
+```
  ### Install required dependencies
+```bash
 pip install -r requirements.txt
-
+```
  ### Set up AWS credentials:
+```bash
 aws configure
-
+```
  ### Run the chatbot UI:
+```bash
 streamlit run streamlit_app.py
-
 ```
 
 
