@@ -4,7 +4,7 @@ A privacy-friendly, AI-powered virtual healthcare assistant that helps users und
 
 This assistant runs **locally** using:
 - Amazon Titan Embeddings (for vector search)
-- Meta LLaMA3-8B via Amazon Bedrock (for response generation)
+- Meta Llama 3.3 70B Instruct via Amazon Bedrock (for response generation)
 - FAISS for fast document search
 - Streamlit for interactive chat UI
 

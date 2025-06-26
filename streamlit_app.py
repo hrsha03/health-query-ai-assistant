@@ -7,7 +7,7 @@ from core.responder import generate_response
 from utils.chat_memory import update_summary
 
 st.set_page_config(page_title="Health Assist Bot", layout="centered")
-st.title("🩺 Health Assist Chatbot")
+st.title("🩺 HealthQuery Chatbot")
 
 if "chat_summary" not in st.session_state:
     st.session_state.chat_summary = ""
