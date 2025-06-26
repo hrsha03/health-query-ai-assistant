@@ -1,12 +1,12 @@
-# 🩺 Health Assist Bot — Local RAG + LLM Symptom Guide
+# 🩺 HealthQuery AI Assistant — Local RAG + LLM Symptom Guide
 
 A privacy-friendly, AI-powered virtual healthcare assistant that helps users understand their symptoms and guides them on whether to seek medical attention.
 
 This assistant runs **locally** using:
-- ✅ Amazon Titan Embeddings (for vector search)
-- ✅ Meta LLaMA3-8B via Amazon Bedrock (for response generation)
-- ✅ FAISS for fast document search
-- ✅ Streamlit for interactive chat UI
+- Amazon Titan Embeddings (for vector search)
+- Meta LLaMA3-8B via Amazon Bedrock (for response generation)
+- FAISS for fast document search
+- Streamlit for interactive chat UI
 
 ---
 
@@ -16,7 +16,7 @@ LLaMA models can occasionally return unintended outputs (like internal logic or 
 
 To ensure stable and informative results:
 
-### ✅ Prompting Tips:
+###  Prompting Tips:
 - Start with direct, natural questions like:
   - `"I'm experiencing chest pain and breathlessness."`
   - `"I've had a persistent cough. Should I worry?"`
@@ -24,7 +24,7 @@ To ensure stable and informative results:
   - `"Why did you say that?"`
   - `"Can you summarize what you told me?"`
 
-> If the first message seems off: press **Reset Chat** in the sidebar or refresh the page.
+> If the message seems off: press **Reset Chat** in the sidebar and refresh the page.
 
 ---
 
@@ -32,8 +32,8 @@ To ensure stable and informative results:
 
  ### Clone the repository:
 ```bash
-git clone https://github.com/your-username/health-assist-bot.git
-cd health-assist-bot
+git clone https://github.com/hrsha03/health-query-ai-assistant.git
+cd health-query-ai-assistant
 ```
  ### Set up a virtual environment
 ```bash
